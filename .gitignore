@@ -1,0 +1,42 @@
+# 构建目录
+build/
+install/
+
+# CMake 生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# 可执行文件
+*.exe
+*.out
+my_app
+
+# 对象文件
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Docker 相关
+.docker/
+
+# 临时文件
+*.tmp
+*.temp
+*.log
