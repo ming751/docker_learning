@@ -224,6 +224,15 @@ valgrind --leak-check=full ./my_app
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
 
+## 📖 详细文档
+
+- **[DOCKER_GUIDE.md](DOCKER_GUIDE.md)** - 🐳 Docker 详细工作流程指南
+  - Docker 基本概念和优势
+  - Dockerfile 和 Docker Compose 逐行解析
+  - 脚本命令详细说明
+  - 完整工作流程分析
+  - 常用命令和故障排除
+
 ## 🔗 相关资源
 
 - [Docker 官方文档](https://docs.docker.com/)
