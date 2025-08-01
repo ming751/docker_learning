@@ -39,6 +39,22 @@ docker_learning/
 ```
 
 ## 🚀 快速开始
+- 加载国内镜像
+```bash
+sudo vim /etc/docker/daemon.json
+{
+  "registry-mirrors": [
+  	"https://docker.xuanyuan.me"
+  	]
+}
+```
+-- 重载，重启服务
+```bash
+systemctl daemon-reload
+systemctl restart docker
+```
+
+
 
 ### 前置要求
 
