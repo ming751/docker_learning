@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -e #遇到错误立即退出
 
 helpFunction()
 {
