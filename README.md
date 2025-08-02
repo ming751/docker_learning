@@ -39,7 +39,10 @@ docker_learning/
 ```
 
 ## 🚀 快速开始
-- 加载国内镜像
+1. [官方安装文档](https://docs.docker.com/engine/install/ubuntu/)
+2. [免sudo运行docker](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
+3. 参考下面的json，修改/etc/docker/daemon.json，提供镜像加速。
+
 ```bash
 sudo vim /etc/docker/daemon.json
 {
@@ -48,11 +51,13 @@ sudo vim /etc/docker/daemon.json
   	]
 }
 ```
--- 重载，重启服务
+4. 重启docker服务
+
 ```bash
-systemctl daemon-reload
-systemctl restart docker
+sudo systemctl daemon-reload
+sudo systemctl restart docker
 ```
+
 
 
 
