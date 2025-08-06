@@ -264,3 +264,12 @@ valgrind --leak-check=full ./my_app
 ---
 
 **享受 Docker 化的 C++ 开发体验！** 🚀
+
+sudo docker images
+查看目前的镜像
+sudo docker ps
+查看正在运行的容器
+
+
+sudo docker exec -it my-cpp-dev /bin/bash
+要进入一个已经在后台运行的容器，您需要使用 docker exec 命令。exec 的意思是 "execute"（执行），即在正在运行的容器内执行一个命令。/bin/bash: 您想在容器内执行的命令。这里我们希望启动一个 Bash shell，以便进行交互。
